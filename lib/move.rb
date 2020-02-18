@@ -11,7 +11,7 @@ def input_to_index(input)
   return index
 end
 
-def move(board, index, cellValue)
+def move(board, index, cellValue = "X")
   board[index] = cellValue
 end
 
